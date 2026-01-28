@@ -2,10 +2,6 @@
 import Image from "next/image"
 
 const ExploreBtn = () => {
-
-
-
-
   return (
 
     <div>
@@ -24,5 +20,4 @@ const ExploreBtn = () => {
     </div>
   )
 }
-
 export default ExploreBtn
