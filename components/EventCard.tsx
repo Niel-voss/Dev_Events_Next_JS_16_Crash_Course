@@ -22,13 +22,13 @@ const EventCard = ({ image, title, slug, location, date, time }: Props) => {
 
       <p className="title">{title}</p>
 
-      <div className="dateTime flex flex-row gap-4">
-        <div className="flex flex-row gap-2">
+      <div>
+        <div className="flex flex-row gap-4">
           <Image src="/icons/calendar.svg" alt="date" width={14} height={14} />
           <p>{date}</p>
         </div>
 
-        <div className="flex flex-row gap-2">
+        <div className="flex flex-row gap-4">
           <Image src="/icons/clock.svg" alt="time" width={14} height={14} />
           <p>{time}</p>
         </div>
